@@ -553,28 +553,29 @@
           <div class="modal__form-field is-textarea">
             <label class="modal__label" for="user-comment">Comment</label>
             <textarea
-              name="message"
+              name="user-comment"
               placeholder="Text input"
               id="user-comment"
               class="modal__textarea"
             ></textarea>
           </div>
           <div class="modal__checkbox-wrap">
-            <label class="modal__label is-checkbox" for="policy">
-              <input
-                class="modal__checkbox visually-hidden"
-                type="checkbox"
-                name="policy"
-                id="policy"
-                required
-              />
+            <input
+              class="modal__checkbox visually-hidden"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              id="user-privacy"
+              required
+            />
+            <label class="modal__label is-checkbox" for="user-privacy">
               <span class="modal__checkbox-box">
                 <svg class="modal__checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href="">Privacy Policy</a>
+              <a class="modal__text-link" href="">Privacy Policy</a>
             </label>
           </div>
           <button class="button">Send</button>
