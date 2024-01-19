@@ -613,7 +613,7 @@ button:focus {
   background-color: #404bbf;
   border: none;
 }
-.modal__checkbox:checked + .modal__label svg {
+.modal__checkbox:checked + .modal__label span {
   fill: #f4f4fd;
 }
 .modal__text-link {
